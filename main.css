@@ -23,9 +23,6 @@
 * .dots {
   display: none;
 }
-* img {
-  display: none;
-}
 
 :root {
   --primary-color: #fff;
@@ -40,6 +37,9 @@
 body {
   background: var(--primary-color);
   margin: 1em;
+}
+body img {
+  display: none;
 }
 body #icon {
   width: 40px;
@@ -173,45 +173,6 @@ body #hero .cta {
     margin-top: 2em;
     padding: 0.5em;
   }
-  #hero img {
-    width: 100%;
-  }
-  #hero .hero-ctas {
-    margin-top: 3em;
-    display: flex;
-    justify-content: center;
-    gap: 3em;
-    display: none;
-  }
-  #hero .hero-ctas a {
-    padding: 0.6em 0.8em;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    border-radius: 32px;
-    width: 131px;
-    height: 40px;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-  }
-  #hero .hero-ctas .get-started {
-    background: #79c0f2;
-    border: 1px solid #2686ca;
-    color: #ffffff;
-  }
-  #hero .hero-ctas .get-started:hover {
-    background: #2686ca;
-  }
-  #hero .hero-ctas .learn-more {
-    background: #ffffff;
-    color: #364152;
-  }
-  #hero .hero-ctas .learn-more:hover {
-    border: 1px solid #2686ca;
-  }
 }
 @media only screen and (min-width: 920px) {
   .menu,
@@ -332,46 +293,4 @@ body #hero .cta {
     margin-top: 2em;
     padding: 0.5em;
   }
-  body #hero img {
-    min-width: 300px;
-    max-width: 500px;
-    display: block;
-    margin: 0 auto;
-    animation: Bellaintroload 3s forwards;
-  }
-  body #hero .hero-ctas {
-    margin-top: 3em;
-    display: flex;
-    justify-content: center;
-    gap: 3em;
-  }
-  body #hero .hero-ctas a {
-    padding: 0.6em 0.8em;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    border-radius: 32px;
-    width: 131px;
-    height: 40px;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-  }
-  body #hero .hero-ctas .get-started {
-    background: #79c0f2;
-    border: 1px solid #2686ca;
-    color: #ffffff;
-  }
-  body #hero .hero-ctas .get-started:hover {
-    background: #2686ca;
-  }
-  body #hero .hero-ctas .learn-more {
-    background: #ffffff;
-    color: #364152;
-  }
-  body #hero .hero-ctas .learn-more:hover {
-    border: 1px solid #2686ca;
-  }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
