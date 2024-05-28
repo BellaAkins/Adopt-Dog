@@ -22,6 +22,10 @@
   .open-nav {
     transform: translateX(0);
   }
+
+  img {
+    animation: Bellaintroload 3s forwards;
+  }
 }
 
 :root {
@@ -432,5 +436,15 @@ body {
         }
       }
     }
+  }
+}
+
+@keyframes Bellaintroload {
+  from {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
