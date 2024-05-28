@@ -19,6 +19,9 @@
 * .open-nav {
   transform: translateX(0);
 }
+* img {
+  animation: Bellaintroload 3s forwards;
+}
 
 :root {
   --primary-color: #fff;
@@ -380,5 +383,15 @@ body #hero .hero-img {
     font-weight: 400;
     line-height: 15.15px;
     color: #544f4f;
+  }
+}
+@keyframes Bellaintroload {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }/*# sourceMappingURL=main.css.map */
